@@ -1,0 +1,39 @@
+body{
+    font-family: Arial, Helvetica, sans-serif
+}
+p.corpoDeTexto{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#rodape h1.titulo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+#cursodesc, #listacurso{
+    min-height: 554px;
+    box-sizing: border-box;
+}
+button.botao, 
+#nav a, 
+#listacurso > ul li a{
+    margin: auto;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    border-bottom: 3px solid #ccc;
+    color: #666;
+    background-color: #fff;
+    outline: none;
+    transition: .2s background-color;
+}
+button.botao:hover, #nav a:hover{
+    background-color: #f1f1f1;
+}
+#listacurso > ul{
+    list-style-type: none;
+    padding-left: 0px;
+}
+#listacurso > ul li{
+    text-align: center;
+    padding: 10px;
+    margin: 10px 0px;
+}
